@@ -5,4 +5,4 @@ const getNotes = require('./notes.js');
 const msg = getNotes();
 console.log(msg);
 
-console.log(chalk.bold.green.inverse('Success!'));
+console.log(chalk.bold.blue.inverse('Success!'));
