@@ -22,6 +22,9 @@ const getNotes = () => "Your notes...";
 const addNote = (title, body) => {
   const notes = loadNotes();
   const dublicatedNote = notes.find(note => note.title == title);
+
+  debugger;
+
   if(! dublicatedNote) {
   	notes.push({
   		title: title,
